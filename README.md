@@ -30,7 +30,7 @@ Or use script tags and globals.
 And then grab it off the global like so:
 
 ```js
-const isPath = pathnameMatcher;
+const isPath = pathnameMatcher.default;
 ```
 
 ## :bulb: Usage
