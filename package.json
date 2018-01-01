@@ -1,6 +1,6 @@
 {
   "name": "pathname-matcher",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Match a path name in a given URL",
   "main": "lib/index.js",
   "module": "lib/index.js",
