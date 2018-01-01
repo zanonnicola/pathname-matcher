@@ -30,7 +30,7 @@ Or use script tags and globals.
 And then grab it off the global like so:
 
 ```js
-const isPath = pathnameMatcher
+const isPath = pathnameMatcher;
 ```
 
 ## :bulb: Usage
@@ -38,20 +38,29 @@ const isPath = pathnameMatcher
 Let's assume you want to run a function if a user navigate to a specific path
 
 ```javascript
+// www.site.com/hello/search
 if (pathnameMatcher(document.location.pathname, 'search')) {
+	console.log('Hello!!');
+}
+
+// www.site.com/search/myPage
+if (pathnameMatcher(document.location.pathname, 'search/myPage')) {
 	console.log('Hello!!');
 }
 ```
 
 > You can provide any path or url as long as it is provided as a string
 
+
 ## API
 
-#### `pathnameMatcher(URL: **String**, pathname: **String**)` [required]
+#### `pathnameMatcher(URL: String, pathname: String)` [required]
 
 Returns `true` if pathname matches the given URL (no trailing slash)
 
 OR `false` when no match.
+
+**pathname** should be passed without `/` at the beginning of the string. See examples above.
 
 ## Legal
 
