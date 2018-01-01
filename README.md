@@ -24,7 +24,7 @@ const pathnameMatcher = require('pathname-matcher')
 Or use script tags and globals.
 
 ```html
-<script src="https://unpkg.com/pathnameMatcher"></script>
+<script src="https://unpkg.com/pathname-matcher"></script>
 ```
 
 And then grab it off the global like so:
