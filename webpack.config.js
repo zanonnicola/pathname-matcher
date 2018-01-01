@@ -6,8 +6,7 @@ module.exports = {
     path: path.resolve(__dirname, "lib"),
     filename: "index.js",
     library: "pathnameMatcher",
-    libraryTarget: "umd",
-    umdNamedDefine: true
+    libraryTarget: "umd"
   },
   devtool: "source-map",
   module: {
