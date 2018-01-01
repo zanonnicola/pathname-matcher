@@ -1,0 +1,45 @@
+{
+  "name": "pathname-matcher",
+  "version": "0.1.0",
+  "description": "Match a path name in a given URL",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "webpack --watch",
+    "build": "NODE_ENV=production webpack --config webpack.config.js",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zanonnicola/pathname-matcher.git"
+  },
+  "keywords": [
+    "javascript",
+    "regEx",
+    "library",
+    "match"
+  ],
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js}",
+      "!**/node_modules/**",
+      "!**/lib/**"
+    ]
+  },
+  "author": "Nicola Zanon <nicola.zanon86@gmail.com> (https://nicola-zanon.com/)",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "jest": "^22.0.4",
+    "webpack": "^3.10.0"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zanonnicola/pathname-matcher/issues"
+  },
+  "homepage": "https://github.com/zanonnicola/pathname-matcher#readme",
+  "dependencies": {}
+}
