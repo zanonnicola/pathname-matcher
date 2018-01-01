@@ -17,8 +17,6 @@ import pathnameMatcher from 'pathname-matcher'
 // common.js
 const pathnameMatcher = require('pathname-matcher')
 
-// AMD
-
 ```
 
 Or use script tags and globals.
